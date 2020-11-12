@@ -1,0 +1,131 @@
+html {
+  font-family: "RobotoRegular";
+  color: white;
+}
+
+body {
+  background: linear-gradient(225deg, rgba(42, 42, 42, 1) 0%, rgba(17, 17, 17, 1) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.lk-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  flex-direction: column;
+}
+
+.lk-image {
+  margin-top: 100px;
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  border: 6px solid white;
+
+  -webkit-box-shadow: 3px 3px 50px 0px rgba(255, 255, 255, 0.2);
+  box-shadow: 3px 3px 50px 0px rgba(255, 255, 255, 0.2);
+}
+
+.lk-title {
+  margin-top: 30px;
+  font-family: "RobotoThin";
+  font-size: 40px;
+}
+
+.lk-subtitle {
+  margin-top: -50px;
+  font-size: 20px;
+  font-family: "RobotoThin";
+}
+
+.lk-jobs {
+  font-family: "RobotoRegular";
+  padding-bottom: 15px;
+}
+
+.lk-buttons {
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+.lk-contact-button {
+  margin-top: 10px;
+  display: block;
+  font-family: "RobotoMedium";
+  text-align: center;
+  color: #2a2a2a;
+  text-decoration: none;
+  height: 15px;
+  width: 200px;
+  padding: 20;
+  border-radius: 15px;
+  background: linear-gradient(225deg, #55c3fa 0%, #1386f5 100%);
+  transition: 1s;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.lk-contact-button:hover {
+  top: -5;
+  color: black;
+}
+
+.lk-oldsite-button {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #c2c2c2;
+  font-size: small;
+}
+
+.lk-oldsite-button:hover {
+  color: white;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+}
+
+.animatedFadeInUp {
+  opacity: 0;
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
