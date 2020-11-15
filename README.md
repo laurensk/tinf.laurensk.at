@@ -12,4 +12,4 @@ You are allowed to use parts of this code for your web projects, but there are a
 2. You have to include a visible mark on every page/router-outlet which links to this repository.
 
 ## Consequences
-If you don't follow these guidelines, it's possible that the `poelzript-checker` will find your site and report the violation and you won't be able to get a PLUS in TINF.
+If you don't follow these guidelines, it's possible that the `poelzript-checker` will find your site and report the violation so you won't get a PLUS in TINF.
